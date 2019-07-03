@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Start Screen styles  */
+.start-screen {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/landing-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  // border: 40px solid white;
+}
+
+.start-title {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: $title-font;
+  font-size: $title-font-size;
+  text-transform: capitalize;
+}
+
+.yes-no-btns {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.start-screen a {
+  font-family: $body-font;
+  font-size: 1.5em;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  color: $ocean-blue;
+  background-color: #fff;
+  padding: 20px 30px;
+  justify-content: space-around;
+  box-shadow: -8px 10px #35353554;
+  border: none;
+  cursor: pointer;
+}
+
+.start-screen a:not(:last-child){
+  margin-right: 150px;
+}
+

@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+img {
+    height: auto;
+}
+
+h1, h2, p {
+    margin: 0;
+}

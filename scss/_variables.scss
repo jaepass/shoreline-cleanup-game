@@ -1,0 +1,16 @@
+// Variables
+
+// Font Variables
+$title-font: 'Averia Libre', cursive;
+$body-font: 'Acme', sans-serif;
+$title-font-size: 2.5em;
+
+// Animation Durations in Milliseconds *** Used by JavaScript
+$opening-screen-fade-out-time: 2000;
+
+// Animation Durations in Seconds *** Used by CSS
+$opening-screen-fade-out-time-in-seconds: ($opening-screen-fade-out-time / 1000) * 1s;
+
+// Game Colors
+$orange: rgb(255, 140, 0);
+$ocean-blue: #29bcc5;

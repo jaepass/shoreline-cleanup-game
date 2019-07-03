@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Great Shoreline Cleanup Game</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>  
+</head>
+<body>
+
+<!-- Opening Screen Start -->
+<div class="opening-screen" id="opening-screen">
+    <!-- <img src="images/opening-screen-beach-trash.jpg"> -->
+    <div class="opening-content">
+        <h1 class="opening-title">Last Year's Dirty Dozen List</h1>
+        <div class="opening-stats" id="opening-stats">
+            <p class="stat stat1"><span>333,289</span><br>Tiny Plastic or Foam</p>
+            <p class="stat stat2" draggable=><span>244,734</span><br>Cigarette Butts</p>
+            <p class="stat stat3"><span>50,285</span><br>Plastic Bottles</p>
+            <p class="stat stat4"><span>47,466</span><br>Food Wrappers</p>
+            <p class="stat stat5"><span>38,624</span><br>Bottle Caps</p>
+            <p class="stat stat6"><span>22,877</span><br>Paper Materials</p>
+            <p class="stat stat7"><span>22,724</span><br>Plastic Bags</p>
+            <p class="stat stat8"><span>18,465</span><br>Packaging</p>
+            <p class="stat stat9"><span>17,654</span><br>Straws</p>
+            <p class="stat stat10"><span>17,527</span><br>Foam</p>
+            <p class="stat stat11"><span>17,337</span><br>Pop Cans</p>
+            <p class="stat stat12"><span>11,365</span><br>Rope</p>
+        </div>
+    </div><!-- End opening content -->
+</div><!-- End opening screen -->
+
+<!-- Start Screen Start -->
+<div class="start-screen" id="start-screen">
+    <h1 class="start-title">are you ready to keep trash off<br>our shorelines and ocean?</h1>
+    <div class="yes-no-btns">
+        <a class="yes-btn" href="game.html">Yes, there is only one planet</a>
+        <a class="no-btn" id="no-btn" href="#no-screen">No, I want to live on Mars</a>
+    </div>
+</div><!--Start Screen End-->
+
+<!-- No Screen -->
+<div id="no-screen" class="no-screen">
+    <a class="rocket-ship" href="#start-screen">
+        <p>click here to<br>back to<br>saving earth</p>
+        <img src="/images/rocketship.svg" alt="Rocket Ship">
+    </a>
+</div>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>

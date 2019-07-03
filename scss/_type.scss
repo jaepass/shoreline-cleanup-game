@@ -1,0 +1,13 @@
+// Type styles 
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Averia+Libre&display=swap');
+
+body,
+button {
+    font-family: $body-font;
+    color: white;
+}
+
+h1, h2 {
+    font-family: $title-font;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Great Shoreline Cleanup Game</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>  
+</head>
+<body>
+
+<!-- Game Screen Start -->
+<div class="game-screen">
+        <h2 class="game-title">Pick up as much trash as you can and drop them<br>in the appropriate bins!</h2>
+        <a class="start-btn" id="start-btn" href="#0">Start Cleaning</a>
+    
+        <div class="score-container">
+            Score: <span id="score">0</span>
+        </div><!-- Score Container End -->
+    
+    
+        <div class="beach-area" id="beach-area">
+        <!-- Bins row start -->
+            <div class="bin-row">
+                <div class="bin organic-bin" data-area-numtype="organic">
+                    <img src="/images/organic/organic-bin.svg" alt="Organic Bin">
+                </div>
+    
+                <div class="bin plastic-bin" data-area-numtype="plastic">
+                    <img src="/images/plastic/plastic-bin.svg" alt="Plastic Bin">
+                </div>
+    
+                <div class="bin paper-bin" data-area-numtype="paper">
+                    <img src="/images/paper/paper-bin.svg" alt="Paper Bin">
+                </div>
+    
+                <div class="bin glass-bin" data-area-numtype="glass">
+                    <img src="/images/glass/glass-bin.svg" alt="Glass Bin">
+                </div>
+            </div><!-- Bin row end -->
+    
+            <div class="trash-items">
+                <div class="trash-group">    
+                        
+                    <div class="item" data-numtype="glass">
+                        <img src="/images/glass/glass1.svg" alt="wine bottle">
+                    </div> 
+    
+                    <div class="item" data-numtype="paper">
+                        <img src="/images/paper/paper1.svg" alt="newspaper">
+                    </div>  
+    
+                    <div class="item" data-numtype="organic">
+                        <img src="/images/organic/organic1.svg" alt="orange">
+                    </div>
+    
+                    <div class="item" data-numtype="plastic">
+                        <img src="/images/plastic/plastic1.svg" alt="plastic jug">
+                    </div>
+            
+                </div><!--End Trash group 1-->
+    
+    
+                <div class="trash-group">
+    
+                    <div class="item" data-numtype="paper">
+                        <img src="/images/paper/paper2.svg" alt="book">
+                    </div> 
+    
+                    <div class="item" data-numtype="glass">
+                        <img src="/images/glass/glass2.svg" alt="wine glass">
+                    </div> 
+    
+                    <div class="item" data-numtype="organic">
+                        <img src="/images/organic/organic2.svg" alt="chicken">
+                    </div> 
+    
+                    <div class="item" data-numtype="plastic">
+                        <img src="/images/plastic/plastic2.svg" alt="plastic bottle">
+                    </div>  
+                    
+                </div><!--End Trash group 2-->
+    
+                <div class="trash-group">
+    
+                    <div class="item" data-numtype="glass">
+                        <img src="/images/glass/glass3.svg" alt="glass bottle">
+                    </div>  
+                
+                    <div class="item" data-numtype="paper">
+                        <img src="/images/paper/paper3.svg" alt="box">
+                    </div>
+                
+                    <div class="item" data-numtype="plastic">
+                        <img src="/images/plastic/plastic3.svg" alt="cd">
+                    </div>  
+    
+                    <div class="item" data-numtype="organic">
+                        <img src="/images/organic/organic3.svg" alt="lettuce">
+                    </div>  
+                    
+                </div><!--End Trash group 3-->
+            </div><!--End All Trash Items-->
+        </div><!--End Beach Area-->
+    </div><!--End Game Screen-->
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
