@@ -2,7 +2,7 @@
 
 //Fade out opening screen
 setTimeout(function(){
-  $("#opening-screen").fadeOut(400);
+  $("#opening-screen").fadeOut(700);
 }, 5000);
 
 // Script for showing bins & trash items on start cleaning button click
